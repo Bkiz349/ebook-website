@@ -1,0 +1,32 @@
+// Font
+$font-family-sans-serif: 'Open Sans', sans-serif;
+
+//colors
+$primary: #c167ef;
+$secondary: #10bcee ;
+$dark: #2b3041;
+$light: #f3f6f9;
+
+$navbar-dark-color: #fff;
+$navbar-dark-hover-color: $secondary;
+$btn-border-radius: 50px; ;
+$navbar-toggler-border-radius: 5px;
+
+// spacing
+$spacer: 1rem !default;
+$spacers: (
+    0: 0,
+    1: $spacer * .25,
+    2: $spacer * .5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 6,
+    7: $spacer * 8,
+    8: $spacer * 12,
+    ) !default;
+
+$line-height-base: 1.7;
+$enable-negative-margins: true;
+// $headings-margin-bottom: $spacers;
+@import '../node_modules/bootstrap/scss/bootstrap';
